@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome BeaconICnRM",
+  "Type": "Screen",
+  "Id": "vMFelWJQo0uHwVINtQyv4g",
+  "Reference": "Q_rYbIiW-E-dvrLiLvjeUw/vMFelWJQo0uHwVINtQyv4g",
+  "ParentRef": "Q_rYbIiW-E-dvrLiLvjeUw/Q9RDHTh0iE2sfKDOTTioPA",
+  "Created": "2024-12-15T20:59:28.0075005Z",
+  "Updated": "2024-12-15T20:59:28.0075005Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

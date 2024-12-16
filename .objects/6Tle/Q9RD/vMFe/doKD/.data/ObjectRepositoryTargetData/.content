@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="knOuzJWFl0K20PEfjbZZSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.32.33" CVScreenId="024571fe-057e-44fc-8090-29aa535701de" CvElementArea="531, 476, 155, 41" CvTextArea="592, 488, 32, 15" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="534, 479, 150, 35" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='rz-button rz-button-md btn-primary' aaname='                     Yes     ' check:innerText='Yes' /&gt;" Guid="ee554d14-f4a0-4d34-abec-92caeb23d66e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="024571fe-057e-44fc-8090-29aa535701de" CvElementArea="531, 476, 155, 41" CvTextArea="592, 488, 32, 15" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="594, 486, 29, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='rz-button-text' tag='SPAN' type='' aaname='Yes' check:innerText='Yes' /&gt;" Guid="501789a2-fc99-499c-9fb9-2b7a95dca26d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="13fcb8d5deb62b600ef6d360f5410eae.png" xmlns="">0jDfLZ-W6XkOVH1KOo3KMJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

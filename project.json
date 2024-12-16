@@ -1,0 +1,105 @@
+{
+  "name": "BeaconCnRM",
+  "projectId": "3d9cafd3-25ef-48e8-9043-3d13279f769b",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.24.3]",
+    "UiPath.Mail.Activities": "[1.23.11]",
+    "UiPath.System.Activities": "[24.10.6]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f54c0c09-6232-45cb-9039-bbfd3935cc5e",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_001_LoadCoreApplication.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b5ab7262-2636-494a-92ea-f38acaceb119",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_002_UserAlreadyLoggedIn.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "82579cd7-ae04-44f9-bf19-4697f8bb892f",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_003_UserAlreadyLoggedIn_NoOption.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a30d6c22-b861-43ea-955c-dc95a381f2ea",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_004_UserAlreadyLoggedIn_YesOption.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "00cb375a-f01b-40ca-bbc2-f7cfdee63515",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_005_SuccessfulLogin_ModuleSelectionPage.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "516b1a21-63e8-45e5-9550-30807468978e",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_006_BeaconCollection_SetAsDefault.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8d593500-df68-42c9-99d6-9ab51dae01f6",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_007_DashboardPage.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "45c25452-1ee1-4d90-a16e-f3ec00cbdec8",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

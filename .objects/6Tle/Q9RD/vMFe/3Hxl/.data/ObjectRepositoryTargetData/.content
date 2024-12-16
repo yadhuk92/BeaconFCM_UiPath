@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tD44D8qX6k29205qRsgXGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.32.33" CVScreenId="8cd40c8a-179b-444d-8072-1e56f4464458" CvElementArea="818, 377, 330, 37" CvType="InputBox" DesignTimeRectangle="819, 378, 327, 35" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='oKTYChMV60' tag='INPUT' type='' class='rz-textbox valid form-control ' placeholder='User Name' aaname='' /&gt;" Guid="be2cd80b-f13a-4822-89e2-d3f3e741154f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8cd40c8a-179b-444d-8072-1e56f4464458" CvTextArea="818, 342, 91, 14" CvTextArgument="User Name" CvType="Text" DesignTimeRectangle="819, 338, 89, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='my-login-form-group' aaname='User Name' check:innerText='User Name' /&gt;" Guid="a4b800e6-d7e3-46bc-95c5-131813a6376a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f9099e1c4a2e07655c241e2b57f5237e.png" xmlns="">0qIeePNqf9UK3Ah7ZcsOssQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

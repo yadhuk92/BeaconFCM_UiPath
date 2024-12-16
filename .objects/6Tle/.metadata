@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome BeaconICnRM",
+  "Type": "App",
+  "Id": "6TleN-YcXUSfkFC9FEVjbw",
+  "Reference": "Q_rYbIiW-E-dvrLiLvjeUw/6TleN-YcXUSfkFC9FEVjbw",
+  "Created": "2024-12-15T20:59:27.8407685Z",
+  "Updated": "2024-12-15T20:59:27.8407685Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

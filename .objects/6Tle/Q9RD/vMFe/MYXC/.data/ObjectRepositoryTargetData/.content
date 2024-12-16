@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kGCjZ_unLkmBFxSt_PbkxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.32.33" CVScreenId="8cd40c8a-179b-444d-8072-1e56f4464458" CvElementArea="818, 472, 330, 37" CvType="InputBox" DesignTimeRectangle="819, 473, 327, 35" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='rz-textbox valid form-control' placeholder='Password' aaname='' /&gt;" Guid="6e0a5030-15b0-44df-b8f4-430cae752ad4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8cd40c8a-179b-444d-8072-1e56f4464458" CvTextArea="819, 436, 77, 15" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="819, 433, 77, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='my-login-form-group' check:innerText='Password' /&gt;" Guid="1402b86f-f04b-4d39-9ed4-85227146daec" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d76870488372386b7fe95a36056bbc5.png" xmlns="">0aa4_XRLQkU2jLXF3_bebFw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

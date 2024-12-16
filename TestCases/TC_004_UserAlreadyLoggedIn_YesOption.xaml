@@ -1,0 +1,255 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_UserAlreadyLoggedIn_YesOption" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="UserNameField" Type="InArgument(x:String)" />
+    <x:Property Name="PasswordField" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>TC_UserAlreadyLoggedIn_YesOption_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TC_UserAlreadyLoggedIn_YesOption" sap:VirtualizedContainerService.HintSize="732,2812" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome BeaconICnRM" sap:VirtualizedContainerService.HintSize="518,2789" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="16535198-fdf2-4a20-b0a3-c38fb2c21e56" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,2548" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SQ_UserAlreadyLoggedIn - Invoke Workflow File (Sequences\SQ_UserAlreadyLoggedIn.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Sequences\SQ_UserAlreadyLoggedIn.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <InArgument x:TypeArguments="x:String" x:Key="ValidatePopupMessage" />
+                <InArgument x:TypeArguments="x:Boolean" x:Key="ConfirmPopupdisplay" />
+                <InArgument x:TypeArguments="x:String" x:Key="AlreadyLoggedinPopupMessage" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Yes'" sap:VirtualizedContainerService.HintSize="450,227" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16535198-fdf2-4a20-b0a3-c38fb2c21e56" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.32.33" CVScreenId="024571fe-057e-44fc-8090-29aa535701de" ContentHash="knOuzJWFl0K20PEfjbZZSg" CvElementArea="531, 476, 155, 41" CvTextArea="592, 488, 32, 15" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="534, 479, 150, 35" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='rz-button rz-button-md btn-primary' aaname='                     Yes     ' check:innerText='Yes' /&gt;" Guid="ee554d14-f4a0-4d34-abec-92caeb23d66e" InformativeScreenshot="13fcb8d5deb62b600ef6d360f5410eae.png" Reference="Q_rYbIiW-E-dvrLiLvjeUw/doKD-_taY0yUbK5gMR4ZHA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="024571fe-057e-44fc-8090-29aa535701de" CvElementArea="531, 476, 155, 41" CvTextArea="592, 488, 32, 15" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="594, 486, 29, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='rz-button-text' tag='SPAN' type='' aaname='Yes' check:innerText='Yes' /&gt;" Guid="501789a2-fc99-499c-9fb9-2b7a95dca26d" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Successfully clicked on the Yes Button in the user already logged in pop up&quot;]" />
+            <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'INPUT  FnIVw8Izx0'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="048aec72-96b8-4da0-a1d7-bb2e56ae062b" InformativeScreenshot="b6598521ab1868c2ff4e3dc54f80a9bc" Selector="&lt;webctrl tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+            </ui:UiElementExists>
+            <uix:NGetText DelayBefore="10" DisplayName="Get Text 'User Name'" sap:VirtualizedContainerService.HintSize="450,190" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="16535198-fdf2-4a20-b0a3-c38fb2c21e56" TextString="[UserNameField]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.32.33" CVScreenId="8cd40c8a-179b-444d-8072-1e56f4464458" ContentHash="tD44D8qX6k29205qRsgXGQ" CvElementArea="818, 377, 330, 37" CvType="InputBox" DesignTimeRectangle="819, 378, 327, 35" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='oKTYChMV60' tag='INPUT' type='' class='rz-textbox valid form-control ' placeholder='User Name' aaname='' /&gt;" Guid="be2cd80b-f13a-4822-89e2-d3f3e741154f" InformativeScreenshot="f9099e1c4a2e07655c241e2b57f5237e.png" IsResponsive="True" Reference="Q_rYbIiW-E-dvrLiLvjeUw/3Hxl-qLJuUavxmuvYlNE7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="8cd40c8a-179b-444d-8072-1e56f4464458" CvTextArea="818, 342, 91, 14" CvTextArgument="User Name" CvType="Text" DesignTimeRectangle="819, 338, 89, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='my-login-form-group' aaname='User Name' check:innerText='User Name' /&gt;" Guid="a4b800e6-d7e3-46bc-95c5-131813a6376a" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <If Condition="[String.IsNullOrWhiteSpace(UserNameField)]" sap:VirtualizedContainerService.HintSize="450,627" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;The field is cleared and empty&quot;]" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error" Message="[&quot;The field is not cleared an has some text&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+            <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'INPUT  FnIVw8Izx0'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="048aec72-96b8-4da0-a1d7-bb2e56ae062b" InformativeScreenshot="e8afcaeb9e111595da01315bd4efc759" Selector="&lt;webctrl tag='INPUT' type='password' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+            </ui:UiElementExists>
+            <uix:NGetText DelayBefore="10" DisplayName="Get Text 'Password'" sap:VirtualizedContainerService.HintSize="450,190" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="16535198-fdf2-4a20-b0a3-c38fb2c21e56" TextString="[PasswordField]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="192.168.32.33" CVScreenId="8cd40c8a-179b-444d-8072-1e56f4464458" ContentHash="kGCjZ_unLkmBFxSt_PbkxA" CvElementArea="818, 472, 330, 37" CvType="InputBox" DesignTimeRectangle="819, 473, 327, 35" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='rz-textbox valid form-control' placeholder='Password' aaname='' /&gt;" Guid="6e0a5030-15b0-44df-b8f4-430cae752ad4" InformativeScreenshot="7d76870488372386b7fe95a36056bbc5.png" Reference="Q_rYbIiW-E-dvrLiLvjeUw/MYXCkj8zc0-g6a-AGEIZ-A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="8cd40c8a-179b-444d-8072-1e56f4464458" CvTextArea="819, 436, 77, 15" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="819, 433, 77, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='my-login-form-group' check:innerText='Password' /&gt;" Guid="1402b86f-f04b-4d39-9ed4-85227146daec" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <If Condition="[String.IsNullOrWhiteSpace(PasswordField)]" sap:VirtualizedContainerService.HintSize="450,620" sap2010:WorkflowViewState.IdRef="If_2">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;The field is cleared and empty&quot;]" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Error" Message="[&quot;The field is not cleared an has some text&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="Cfe2Y8bt8UieW1jFATCYpw" IconBase64="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" InformativeScreenshot="7978f57c3bcd5b6c9e7b9793af9c6713.jpg" Reference="Q_rYbIiW-E-dvrLiLvjeUw/vMFelWJQo0uHwVINtQyv4g" Selector="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" Title="BeaconICnRM" Url="http://192.168.32.33:8599/" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

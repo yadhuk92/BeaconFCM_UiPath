@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DnQj2WNrBkmRi89XKCMi1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.32.33" CVScreenId="8ba0ffee-d5a6-4d84-9fa9-b6241e0ad233" CvElementArea="815, 533, 314, 49" CvTextArea="948, 551, 47, 13" CvTextArgument="LOGIN" CvType="Button" DesignTimeRectangle="816, 535, 313, 47" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn submitbtn   btn-block' aaname='LOGIN' check:innerText='LOGIN' /&gt;" Guid="435bcdc2-2b3e-460f-9164-117106550e9b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a28796e41db436813670837e8d0ea0d5.png" xmlns="">0FRysggatbki58JC3g_LRIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

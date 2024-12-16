@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2vDSwjyK-UqwjVuzg4S8YQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.32.33/ModuleSelection" CVScreenId="9847fa3b-79aa-47bb-b0a9-0e9f3e3bacd0" CvElementArea="289, 358, 112, 38" CvTextArea="302, 370, 86, 13" CvTextArgument="Go Collection" CvType="Button" DesignTimeRectangle="290, 359, 109, 35" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Go Collection' tag='BUTTON' type='' class='btn btn-primary' check:innerText='Go Collection' /&gt;" Guid="1c098ec3-85a0-4b0d-a263-491fe8113fe3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5c1880ad7d38cae4b74ea8478064e65e.png" xmlns="">06F5PNzR1XUiv20_TtWCTnw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

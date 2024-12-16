@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="B2BhJHk3JE-KXKWcmRrqAg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="192.168.32.33/ModuleSelection" CVScreenId="c3254b70-84fe-4390-9e3a-18d8b398af23" CvElementArea="765, 362, 22, 22" CvType="CheckBox" DesignTimeRectangle="767, 363, 20, 20" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='rz-chkbox-box' tag='DIV' type='' aaname='              ' /&gt;" Guid="8a55bc5d-cb7c-4fdf-b56b-93106146d59c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BeaconICnRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8941298bcac6b87df0e5e3dfd34b9d16.png" xmlns="">01xqNH7YeSEmXZJo0qCJYrA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
